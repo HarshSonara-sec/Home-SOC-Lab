@@ -14,12 +14,12 @@ screenshots/
 
 Before publishing a screenshot:
 
-- Remove passwords and secrets.
-- Remove personal email addresses.
+- Removed passwords and secrets.
+- Removed personal email addresses.
 - Redact unnecessary host identifiers.
-- Avoid exposing unrelated private information.
-- Keep enough UI context to show what was actually investigated.
-- Prefer screenshots that demonstrate a technical decision, detection, or troubleshooting result.
+- Avoided exposing unrelated private information.
+- Kept enough UI context to show what was actually investigated.
+- Prefered screenshots that demonstrate a technical decision, detection, or troubleshooting result.
 
 Recommended evidence for this lab:
 
