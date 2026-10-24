@@ -1,0 +1,14 @@
+<Sysmon schemaversion="4.91">
+  <HashAlgorithms>SHA256</HashAlgorithms>
+  <EventFiltering>
+    <ProcessCreate onmatch="include" />
+    <NetworkConnect onmatch="include" />
+    <DnsQuery onmatch="include" />
+    <FileCreate onmatch="include">
+      <TargetFilename condition="contains any">\Downloads\; \Temp\; \AppData\; \Startup\</TargetFilename>
+    </FileCreate>
+    <RegistryEvent onmatch="include">
+      <TargetObject condition="contains any">\Run\; \RunOnce\; \Services\; \Winlogon\; \Image File Execution Options\</TargetObject>
+    </RegistryEvent>
+  </EventFiltering>
+</Sysmon>
