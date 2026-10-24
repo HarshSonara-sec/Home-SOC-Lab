@@ -1,0 +1,37 @@
+# Virtual machines and large artifacts
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.vmem
+*.nvram
+*.lck/
+
+# Splunk runtime data
+splunk/var/
+var/
+*.spl
+*.bundle
+
+# Local caches and temporary files
+.cache/
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Credentials and secrets
+.env
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+credentials/
+
+# Local/editor files
+.vscode/
+.idea/
